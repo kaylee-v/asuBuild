@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+
+		<title>Resources</title>
+		<meta name="description" content="">
+		<meta name="author" content="Kaylee">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!--Style elements-->
+		<link rel="shortcut icon" href="https://www.asu.edu/sites/all/themes/asu_home/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="jquery-ui.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+		<!--Scipt elements-->
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="jquery-ui.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		<script src="https://use.fontawesome.com/1d96165101.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<img src="Assets/asu_horiz_rgb_digital_maroongold.png" alt="ASU" id="ASU_logo" height="50" width="180">
+			<ul>
+				<li><a href="home">ASU Home</a></li>
+				<li><a href="my_asu">My ASU</a></li>
+				<li><a href="colleges_schools">Colleges &amp; Schools</a></li>
+				<li><a href="map_locations">Map &amp; Locations</a></li>
+				<li><a href="directory">Directory</a></li>
+			</ul>
+			<br>
+			<h2>Ira A. Fulton Schools of Engineering <span id="git_text">| Graphic Information Technology</span></h2>
+		</header>
+		<div id="nav_container">
+			<nav>
+				<ul>
+					<li><a href="index"><i class="fa fa-home"></i></a></li>
+					<li><a href="courses.html">Courses</a></li>
+					<li><a href="resources.html">Resources</a></li>
+					<li><a href="careers">Careers</a></li>
+					<li><a href="gallery">Gallery</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="git_header">
+			<div class="header_graphic">
+				<h1>Graphic Information Technology</h1>
+			</div>
+		</div>
+		<div id="tabs">
+			<ul>
+				<li><a href="#resources">Resources</a></li>
+				<li><a href="#featured_lab">Featured Lab</a></li>
+			</ul>
+		<article>
+			<div id="resources">
+				<form role="form">
+					<label><input type="checkbox" id="Career Preparations" value="https://students.asu.edu/careerguide/careerpreparation">Career Preparation</label>
+					<label><input type="checkbox" id="College Advising" value="https://http://poly.engineering.asu.edu/advising">College Advising</label>
+					<label><input type="checkbox" id="Counseling Services" value="https://students.asu.edu/counseling">Counseling Services</label>
+					<label><input type="checkbox" id="Financial Aid" value="https://students.asu.edu/financialaid">Financial Aid</label>
+					<label><input type="checkbox" id="Fitness &amp; Recreation" value="http://fitness.asu.edu/">Fitness &amp; Recreation</label>
+					<label><input type="checkbox" id="Health Services" value="https://students.asu.edu/health">Health Services</label>
+					<label><input type="checkbox" id="Housing" value="http://housing.asu.edu/home">Housing</label>
+					<label><input type="checkbox" id="Library" value="http://lib.asu.edu/">Library</label>
+					<label><input type="checkbox" id="Parking" value="https://cfo.asu.edu/pts">Parking</label>
+					<label><input type="checkbox" id="Scholarship" value="https://students.asu.edu/scholarships">Scholarships</label>
+					<label><input type="checkbox" id="Student Employment" value="https://students.asu.edu/employment">Student Employment</label>
+					<label><input type="checkbox" id="Student Organizations" value="http://asu.orgsync.com/">Student Organizations</label>
+					<label><input type="checkbox" id="Tutoring Support" value="https://tutoring.asu.edu/">Tutoring Support</label>
+					<label><input type="checkbox" id="Writing Support" value="https://tutoring.asu.edu/writing-centers">Writing Support</label>
+					<input type="button" id="resourceSubmit" value="Show Me the Resources">
+				</form>
+				<div id="resourceReturn">
+					<div id="resourceError" class="hidden">Please select a value.</div>
+					<p></p>
+				</div>
+			</div>
+		</article>
+		<article>
+			<div id="featured_lab">
+					<article>
+						<div id="bbPlayer">
+							<video controls width="640" height="360" poster="videos.files/BalloonBash.files/BalloonBashASU.jpg" id="balloon_bash">
+								<source src="videos.files/BalloonBash.files/BalloonBashASU.m4v" type="video/mp4" />
+								<source src="videos.files/BalloonBash.files/BalloonBashASU.ogv" type="video/ogg" />
+								<object type="application/x-shockwave-flash" data="videos.files/BalloonBashASU.files/flashfox.swf" width="640" height="360">
+									<param name="balloon_bash" value="videos.files/BalloonBash.files/flashfox.swf" />
+									<embed src="videos.files/BalloonBash.files/flashfox.swf" width="640" height="360" />
+								</object>
+							</video>
+							<div id="bbControls" class="hidden">
+								<button id="bbPlayPause" title="Play" class="player"><i class="fa fa-play-circle fa-2x" title="play"></i></button>
+								<div id="bbProgressBar">
+									<div id="bbProgress"></div>
+								</div>
+								<div id="bbVolume"></div>
+							</div>
+						</div>
+						<div id="lPlayer">
+							<video controls width="480" height="360" poster="videos.files/LatheASU.files/LatheASU.jpg" id="lathe">
+								<source src="videos.files/LatheASU.files/LatheASU.m4v" type="video/mp4" />
+								<source src="videos.files/LatheASU.files/LatheASU.ogv" type="video/ogg" />
+								<object type="application/x-shockwave-flash" data="videos.files/LatheASU.files/flashfox.swf" width="480" height="360">
+									<param name="lathe" value="videos.files/LatheASU.files/flashfox.swf" />
+									<embed src="videos.files/LatheASU.files/flashfox.swf" width="480" height="360" />
+								</object>
+							</video>
+							<div id="lControls" class="hidden">
+								<button id="lPlayPause" title="Play" class="player"><i class="fa fa-play-circle fa-2x" title="play"></i></button>
+								<div id="lProgressBar">
+									<div id="lProgress"></div>
+								</div>
+								<div id="lVolume"></div>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>	
+		</article>
+		<footer>
+			<div id="footer_col1">
+				<img src="Assets/ASU engineering logo.png" alt="ASU Engineering" height="50" width="222"><br><br>
+				Graphic Information Technology<br>
+				6075 S. Innovation Way West<br>
+				Technology Center<br>
+				Mesa, AZ 85212<br>
+				ask.git@asu.edu
+			</div>
+			<div id="footer_col2">
+				Prospective Student? Call 480-727-1874 to schedule an appointment.<br><br>
+				Contact Administration: 480-727-5121<br><br>
+				Phone: 480-727-1874<br>
+				Fax: 480-727-5299<br>
+			</div>
+			<div id="footer_col3">
+				<i class="fa fa-facebook-square fa-3x" title="Facebook"></i>
+				<i class="fa fa-twitter-square fa-3x" title="Twitter"></i>
+				<i class="fa fa-linkedin-square fa-3x" title="LinkedIn"></i>
+				<i class="fa fa-vimeo-square fa-3x" title="Vimeo"></i>
+				<i class="fa fa-instagram fa-3x" title="Instagram"></i>
+				<i class="fa fa-flickr fa-3x" title="Flickr"></i>
+				<i class="fa fa-pinterest fa-3x" title="Pinterest"></i>
+				<i class="fa fa-rss-square fa-3x" title="RSS Feed"></i>
+				<i class="fa fa-google-plus-square fa-3x" title="Google+"></i>
+			</div>
+		</footer>
+	</body>
+</html>

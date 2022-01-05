@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+
+		<title>Courses</title>
+		<meta name="description" content="">
+		<meta name="author" content="Kaylee">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!--Style elements-->
+		<link rel="shortcut icon" href="https://www.asu.edu/sites/all/themes/asu_home/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="jquery-ui.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+		<!--Scipt elements-->
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="jquery-ui.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		<script src="https://use.fontawesome.com/1d96165101.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<img src="Assets/asu_horiz_rgb_digital_maroongold.png" alt="ASU" id="ASU_logo" height="50" width="180">
+			<ul>
+				<li><a href="home">ASU Home</a></li>
+				<li><a href="my_asu">My ASU</a></li>
+				<li><a href="colleges_schools">Colleges &amp; Schools</a></li>
+				<li><a href="map_locations">Map &amp; Locations</a></li>
+				<li><a href="directory">Directory</a></li>
+			</ul>
+			<br>
+			<h2>Ira A. Fulton Schools of Engineering <span id="git_text">| Graphic Information Technology</span></h2>
+		</header>
+		<div id="nav_container">
+			<nav>
+				<ul>
+					<li><a href="index"><i class="fa fa-home"></i></a></li>
+					<li><a href="courses.html">Courses</a></li>
+					<li><a href="resources.html">Resources</a></li>
+					<li><a href="careers">Careers</a></li>
+					<li><a href="gallery">Gallery</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="git_header">
+			<div class="header_graphic">
+				<h1>Graphic Information Technology</h1>
+			</div>
+		</div>
+		<div id="course_list">
+			<article>
+				<h1>Course List</h1>
+				<p>The cross-media nature of the graphic information industry requires tomorrow's graduates to understand the full spectrum of graphic technology, publishing processes and current business practices. 
+					The BS program in graphic information technology is preparation for a seamless career as a graphic technologist encompassing Web design and development, printing and digital publishing, commercial photography and videography, and 2D-3D animation. 
+					This is an intensive program of study emphasizing theory and hands-on laboratory practice.</p>
+			</article>
+			<aside>
+				<h3>Search by Focus Area:</h3>
+				<button type="button" id="print_button">Digital Design, Print, and Publishing</button>
+				<button type="button" id="web_button">Web Design and Development</button>
+				<button type="button" id="photo_button">Commercial Photography and Video</button>
+				<button type="button" id="animation_button">2D/3D Animation</button><br>
+				<h3>Search by Course Level:</h3>
+				<button type="button" id="lower_button">Lower-Division</button>
+				<button type="button" id="upper_button">Upper-Division</button><br><br>
+				<button type="button" id="clear_button">Clear Search</button>
+			</aside>
+			<article>	
+				<table>
+					<thead>
+						<tr>
+							<th>Course Prefix &amp; Number</th>
+							<th>Course Name</th>
+							<th>Course Description</th>
+						</tr>
+					</thead>
+					<tbody>
+						<col id="col1" />
+						<col id="col2" />
+						<tr class="lower">
+							<td>GIT 110</td>
+							<td>Technical Graphics</td>
+							<td>Representation of 2-D and 3-D geometry in orthographic, isometric, and oblique projection; detail, assembly, sectional, and auxiliary views; ANSI-standard lettering, and dimensioning for geometric and positional tolerance.</td>
+						</tr>
+						<tr class="lower">
+							<td>GIT 135</td>
+							<td>Graphic Communications</td>
+							<td>Technologies and processes involved in the design, image generation, transmission, and industrial production of graphic information.</td>
+						</tr>
+						<tr class="lower">
+							<td>GIT 210</td>
+							<td>Creative Thinking and Design Visualization</td>
+							<td>Fundamental methods, concepts, and techniques of creative thinking, design visualization, and problem solving, including communication and societal influences.</td>
+						</tr>
+						<tr class="animation lower">
+							<td>GIT 211</td>
+							<td>Introduction to Video Game Art</td>
+							<td>2D and 3D art assets for video games. Areas covered: classic pixel art, seamless texturing and tiling, sprite animation, 3D virtual studio, box modeling.</td>
+						</tr>
+						<tr class="lower">
+							<td>GIT 215</td>
+							<td>Indtroduction to Graphics Programming</td>
+							<td>Graphic user interface planning and evaluation using industry-standard languages; graphics, color layout and file format considerations.</td>
+						</tr>
+						<tr class="lower">
+							<td>GIT 230</td>
+							<td>Digital Illustration in Publishing</td>
+							<td>Raster and vector illustration in publishing.</td>
+						</tr>
+						<tr class="lower">
+							<td>GIT 237</td>
+							<td>Web Content Design</td>
+							<td>User-centered design principles for visual content on the World Wide Web with emphasis on usability, page architecture, search engine optimization, coding, scripting and interactivity.</td>
+						</tr>
+						<tr class="photo lower">
+							<td>GIT 295</td>
+							<td>Introduction to Technical Imaging</td>
+							<td>Explores imaging technologies utilized in industry. Covers basic imaging concepts, chip technologies, optics, motion analysis, high-speed video, thermal imaging, and science relating to light and latent imaging.</td>
+						</tr>
+						<tr class="upper">
+							<td>GIT 303</td>
+							<td>Digital Publishing</td>
+							<td>Web and print publication design and production using industry-standard composition software, proofing, and output devices.</td>
+						</tr>
+						<tr class="animation upper">
+							<td>GIT 312</td>
+							<td>3-D Computer Graphics Modeling and Representation</td>
+							<td>3-D modeling applications: modeling for video games, mapping techniques, texturing, box modeling, geometric representation, strategies and assemblies.</td>
+						</tr>
+						<tr class="upper">
+							<td>GIT 314</td>
+							<td>Multimedia Design, Planning, and Storyboards</td>
+							<td>The creative process of generating ideas, conceptualizing projects, planning, designing, story boarding, and presenting interactive multimedia products.</td>
+						</tr>
+						<tr class="print upper">
+							<td>GIT 333</td>
+							<td>Printing Technology</td>
+							<td>Theory and application of sheet and web press technology for offset-lithography, flexography, screen process, and digitial printing.</td>
+						</tr>
+						<tr class="print photo animation upper">
+							<td>GIT 334</td>
+							<td>Image Capture and Manipulation</td>
+							<td>Theory and application of advanced image editing and raster techniques for reproduction and dissemination.</td>
+						</tr>
+						<tr class="upper">
+							<td>GIT 335</td>
+							<td>Computer Systems Technology</td>
+							<td>Computer technology: hardware, software, storage, networking, Internet, telecommunications, and information systems. Requires independent research.</td>
+						</tr>
+						<tr class="web upper">
+							<td>GIT 340</td>
+							<td>Information Design and Usability</td>
+							<td>Design and technology solutions for increasing Website usability and methods of organizing information to improve the user experience.</td>
+						</tr>
+						<tr class="upper">
+							<td>GIT 384</td>
+							<td>Commercial Photography</td>
+							<td>Digital image capture, and output in a commercial studio emphasizing publishing workflow.</td>
+						</tr>
+						<tr class="photo upper">
+							<td>GIT 394</td>
+							<td>Special Topics</td>
+							<td>Covers topics of immediate or special interest to a faculty member and students.</td>
+						</tr>
+						<tr class="web upper">
+							<td>GIT 402</td>
+							<td>New Media Internet Technologies</td>
+							<td>Project-based exploration of new media Internet technologies from a graphic technology prospective. Emphasizes how, why, and when new media can be used to enhance a Web site and the user's experience.</td>
+						</tr>
+						<tr class="animation upper">
+							<td>GIT 411</td>
+							<td>Computer Animation</td>
+							<td>3-D computer animation methods: rigging for video games, principles of animation, loops, skinning, blending , advanced modeling and motion.</td>
+						</tr>
+						<tr class="upper">
+							<td>GIT 413</td>
+							<td>Professional Portfolio Design and Presentation</td>
+							<td>Digital media portfolio design and production: planning, audience analysis, media selection, authoring, media formats, production, copyright considerations, marketing, and delivery. Requires capstone group project.</td>
+						</tr>
+						<tr class="web upper">
+							<td>GIT 414</td>
+							<td>Web Site Design and Internet/Web Technologies</td>
+							<td>Web site design, authoring, standards, protocols, tools, and development techniques for commercial client-sided Web-based graphic information systems.</td>
+						</tr>
+						<tr class="web upper">
+							<td>GIT 417</td>
+							<td>Advanced Internet Programming</td>
+							<td>Industry-standard programming languages and techniques to create interactive graphic information Web sites and applications.</td>
+						</tr>
+						<tr class="web upper">
+							<td>GIT 418</td>
+							<td>Multimedia Authoring, Scripting, and Production</td>
+							<td>Production of multimedia projects using industry-standard authoring applications: client considerations and project documentation; user interface design, interactivity, media, and databases.</td>
+						</tr>
+						<tr class="upper">
+							<td>GIT 432</td>
+							<td>Graphic Industry Business Practices</td>
+							<td>Business practices related to the graphics industry; business models, cost analysis, marketing and management approaches.</td>
+						</tr>
+						<tr class="web upper">
+							<td>GIT 435</td>
+							<td>Web Management and E-Commerce</td>
+							<td>Internet Web site management, security, marketing, and e-commerce business models.</td>
+						</tr>
+						<tr class="print upper">
+							<td>GIT 437</td>
+							<td>Color Reproduction Systems</td>
+							<td>Scientific analysis for the engineering of color reproduction systems and color models used in the graphics industry.</td>
+						</tr>
+						<tr class="print upper">
+							<td>GIT 450</td>
+							<td>Digital Workflow in Graphic Industries</td>
+							<td>Digital production system analysis for content creation, automation output of graphic information to print and Web, including networking and job tracking.</td>
+						</tr>
+						<tr class="photo upper">
+							<td>GIT 490</td>
+							<td>Advanced Commercial Photography</td>
+							<td>Studio-based class focusing on set design, advanced photographic techniques, raw workflow, marketing, business, and digital rights management.</td>
+						</tr>
+						<tr class="upper">
+							<td>GIT 494</td>
+							<td>Special Topics</td>
+							<td>Covers topics of immediate or special interest to a faculty member and students.</td>
+						</tr>
+						<tr class="print upper">
+							<td>GIT 498</td>
+							<td>Digital Publishing Seminar</td>
+							<td>Small-group study and research for advanced students within their majors. Major status in the department or instructor approval is required.</td>
+						</tr>
+					</tbody>
+				</table>
+			</article>
+		</div>
+		<footer>
+			<div id="footer_col1">
+				<img src="Assets/ASU engineering logo.png" alt="ASU Engineering" height="50" width="222"><br><br>
+				Graphic Information Technology<br>
+				6075 S. Innovation Way West<br>
+				Technology Center<br>
+				Mesa, AZ 85212<br>
+				ask.git@asu.edu
+			</div>
+			<div id="footer_col2">
+				Prospective Student? Call 480-727-1874 to schedule an appointment.<br><br>
+				Contact Administration: 480-727-5121<br><br>
+				Phone: 480-727-1874<br>
+				Fax: 480-727-5299<br>
+			</div>
+			<div id="footer_col3">
+				<i class="fa fa-facebook-square fa-3x" title="Facebook"></i>
+				<i class="fa fa-twitter-square fa-3x" title="Twitter"></i>
+				<i class="fa fa-linkedin-square fa-3x" title="LinkedIn"></i>
+				<i class="fa fa-vimeo-square fa-3x" title="Vimeo"></i>
+				<i class="fa fa-instagram fa-3x" title="Instagram"></i>
+				<i class="fa fa-flickr fa-3x" title="Flickr"></i>
+				<i class="fa fa-pinterest fa-3x" title="Pinterest"></i>
+				<i class="fa fa-rss-square fa-3x" title="RSS Feed"></i>
+				<i class="fa fa-google-plus-square fa-3x" title="Google+"></i>
+			</div>
+		</footer>
+	</body>
+</html>
